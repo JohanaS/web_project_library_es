@@ -97,6 +97,7 @@
   background-image: url("../images/staff_picks_background.jpg");
   background-repeat: no-repeat;
   padding: 100px 0 140px;
+  background-size: contain;
 }
 
 .staff__title {
@@ -126,6 +127,7 @@
   gap: 40px;
   list-style-type: none;
   padding-left: 0;
+  justify-content: space-around;
 }
 
 .card {
