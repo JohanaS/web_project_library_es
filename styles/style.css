@@ -312,14 +312,15 @@
 .membership__steps {
   list-style-type: none;
   padding: 0;
-  margin: 100px 0;
+  margin: 100px 0 0;
   display: flex;
   gap: 40px;
-  justify-self: center;
+  justify-content: center;
 }
 
 .step {
   width: 220px;
+  flex-basis: auto;
 }
 
 .step__title {
@@ -341,8 +342,8 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #000;
-  color: #fff;
+  background-color: #1f1f1f;
+  color: #ffffff;
   padding: 60px 80px;
 }
 
@@ -356,7 +357,7 @@
 }
 
 .footer__column_content_social {
-  padding-left: 80px;
+  margin-left: 80px;
   margin-right: 0px;
 }
 
@@ -367,7 +368,7 @@
 
 .footer__column-heading {
   margin: 0px;
-  padding-bottom: 4px;
+  margin-bottom: 20px;
 }
 
 .footer__list {
@@ -378,7 +379,6 @@
 
 .footer__list-item {
   display: flex;
-  gap: 10px;
   padding-top: 16px;
   align-items: center;
 }
@@ -386,6 +386,9 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
@@ -394,6 +397,6 @@
 }
 
 .footer__copyright {
-  padding-top: 100px;
+  margin-top: 100px;
   margin: 0px;
 }
